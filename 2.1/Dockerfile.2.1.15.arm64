@@ -1,4 +1,5 @@
 FROM owlab/oracle-jdk8-arm64
+MAINTAINER Hun Jae Lee <hunjae.lee@gmail.com>
 
 # explicitly set user/group IDs
 RUN groupadd -r cassandra --gid=999 && useradd -r -g cassandra --uid=999 cassandra
